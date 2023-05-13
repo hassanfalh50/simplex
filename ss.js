@@ -26,7 +26,7 @@
 
                 var form = `
                   <form id="material-download-form" method="get" target="_blank">
-                    <a href="${a}" class="btn btn-success d-block mx-auto downlaod-file-msgs big-btn" type="submit">بدء التحميل</a>
+                    <a href="${a}" type="button" class="btn btn-primary">بدء التحميل</a>
                   </form>
                 `;
                 $("#material-download-waiting").fadeOut();
